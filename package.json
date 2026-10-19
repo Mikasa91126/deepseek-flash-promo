@@ -1,0 +1,29 @@
+{
+  "name": "deepseek-flash-promo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DeepSeek V4.1 Flash 概念宣传片（90s · 1920x1080 · 60fps · Remotion）",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Promo out/deepseek-v4.1-flash.mp4",
+    "render:hw": "remotion render Promo out/deepseek-v4.1-flash.mp4 --hardware-acceleration if-possible",
+    "still": "remotion still Promo",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/fonts": "4.0.535",
+    "@remotion/noise": "4.0.535",
+    "@remotion/paths": "4.0.535",
+    "@remotion/shapes": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
